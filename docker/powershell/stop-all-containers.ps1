@@ -8,4 +8,4 @@
 	https://github.com/DBragz/Scripts/blob/main/windows/docker/stop-all-containers.ps1
 #>
 
-docker ps -q | ForEach-Object { docker stop $_ }
+docker kill $(docker ps -q)
