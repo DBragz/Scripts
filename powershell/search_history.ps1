@@ -3,9 +3,7 @@
 .DESCRIPTION
 	Searches through previous commands for a specific string.
 .NOTES
-	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
-.LINK
-	https://github.com/DBragz/Scripts/blob/main/windows/powershell/search-history.ps1
+	Author: Daniel Ribeirinha-Braga
 #>
 
 if (-not $args[0]) {

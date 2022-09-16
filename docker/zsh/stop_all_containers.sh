@@ -1,6 +1,6 @@
-#!/bin/sh
+#!/bin/zsh
 #
-# Script Name: stop-all-containers.sh
+# Script Name: stop_all_containers.sh
 #
 # Author: Daniel Ribeirinha-Braga
 #

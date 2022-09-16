@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/szh
 #
 # Script Name: program.sh
 #
@@ -13,4 +13,5 @@ then
   exit 0
 fi
 
-sudo docker exec -it $1 /bin/bash
+
+docker exec -it $1 /bin/bash

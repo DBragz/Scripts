@@ -1,6 +1,6 @@
-#!/bin/sh
+#!/bin/zsh
 #
-# Script Name: rm-all-containers.sh
+# Script Name: rm_all_containers.sh
 #
 # Author: Daniel Ribeirinha-Braga
 #

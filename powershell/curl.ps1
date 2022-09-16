@@ -3,9 +3,7 @@
 .DESCRIPTION
 	Downloads the file using a curl command.
 .NOTES
-	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
-.LINK
-	https://github.com/DBragz/Scripts/blob/main/windows/powershell/curl.ps1
+	Author: Daniel Ribeirinha-Braga
 #>
 
 if ((-not $args[0]) -or (-not $args[1])) {

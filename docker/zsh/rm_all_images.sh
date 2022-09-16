@@ -1,6 +1,6 @@
-#!/bin/sh
+#!/bin/zsh
 #
-# Script Name: rm-all-images.sh
+# Script Name: rm_all_images.sh
 #
 # Author: Daniel Ribeirinha-Braga
 #
