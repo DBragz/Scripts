@@ -1,5 +1,5 @@
 <# .SYNOPSIS
-        Reboot Computer
+  Reboot Computer
 .DESCRIPTION
 	Script for rebooting a Windows computer.
 .NOTES
