@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Script Name: pi_model.sh
+# Script Name: model.sh
 #
 # Author: Daniel Ribeirinha-Braga
 #
