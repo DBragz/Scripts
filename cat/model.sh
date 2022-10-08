@@ -1,8 +1,8 @@
-#!/bin/bash
+#!/bin/sh
 #
 # Script Name: pi_model.sh
 #
-# Author: Daniel Ribeirinha-Braga
+# Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
 #
 # Description: Retrieves the model of the Raspberry Pi.
 #

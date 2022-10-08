@@ -3,7 +3,7 @@
 .DESCRIPTION
 	Downloads the file using a curl command.
 .NOTES
-	Author: Daniel Ribeirinha-Braga
+	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
 #>
 
 if ((-not $args[0]) -or (-not $args[1])) {

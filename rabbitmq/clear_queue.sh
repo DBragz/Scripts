@@ -2,7 +2,7 @@
 #
 # Script Name: clear_queue.sh
 #
-# Author: Daniel Ribeirinha-Braga
+# Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
 #
 # Description: Deletes a queue in rabbitmq.
 #

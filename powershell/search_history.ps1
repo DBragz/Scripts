@@ -3,7 +3,7 @@
 .DESCRIPTION
 	Searches through previous commands for a specific string.
 .NOTES
-	Author: Daniel Ribeirinha-Braga
+	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
 #>
 
 if (-not $args[0]) {

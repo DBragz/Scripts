@@ -1,8 +1,8 @@
-#!/bin/zsh
+#!/bin/sh
 #
 # Script Name: rm_all_images.sh
 #
-# Author: Daniel Ribeirinha-Braga
+# Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
 #
 # Description: Removes all of the docker images.
 #
