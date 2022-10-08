@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# Script Name: unix_os.sh
+# Script Name: os_info.sh
 #
 # Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
 #

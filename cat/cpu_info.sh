@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# Script Name: pi_cpuinfo.sh
+# Script Name: cpu_info.sh
 #
 # Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
 #
