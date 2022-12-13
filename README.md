@@ -1,6 +1,6 @@
 # Scripts
 
-These scripts are designed to assist with automating applications on all types of operating systems.
+These scripts were created for me to get a better understanding of scripting between operating systems.
 
 ## Authors
 
