@@ -7,7 +7,7 @@
 #>
 
 if (-not $args[0]) {
-  return Write-Host "Error: Parameters missing`nUsage: os.sh DOCKER_IMAGE"
+  return Write-Host "Error: Parameters missing`nUsage: docker_entrypoint.sh DOCKER_IMAGE"
 }
 
 docker run --rm -it --entrypoint sh $args[0]
