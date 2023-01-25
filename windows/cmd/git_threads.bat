@@ -1,6 +1,6 @@
 @REM Name:     git_threads.bat
 @REM Purpose:  Script for setting up the number of Git threads.
-@REM Author:   Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+@REM Author:   Daniel Ribeirinha-Braga
 
 @echo off
 
@@ -11,3 +11,4 @@ if [%1]==[] (
 )
 
 git config --global pack.threads %1
+

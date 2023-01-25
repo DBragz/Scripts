@@ -1,9 +1,10 @@
 <# .SYNOPSIS
-	Curl Download
+	Curl download a file
 .DESCRIPTION
 	Downloads the file using a curl command.
 .NOTES
-	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+	Author: Daniel Ribeirinha-Braga
+  Name: curl.ps1
 #>
 
 if ((-not $args[0]) -or (-not $args[1])) {
@@ -11,3 +12,4 @@ if ((-not $args[0]) -or (-not $args[1])) {
 }
 
 curl -L $args[0] --output $args[1]
+

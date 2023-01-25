@@ -1,9 +1,10 @@
 <# .SYNOPSIS
-	Authorizing SSH Keys
+	Authorizing SSH keys
 .DESCRIPTION
 	Script for adding SSH keys to a server to be authorized.
 .NOTES
 	Author: Daniel Ribeirinha-Braga
+  Name: ssh_access.ps1
 #>
 
 if ((-not $args[0]) -or (-not $args[1])) {
@@ -11,3 +12,4 @@ if ((-not $args[0]) -or (-not $args[1])) {
 }
 
 Get-Content ~/.ssh/id_rsa.pub | ssh $($args[0])@$($args[1]) 'mkdir ~/.ssh/ && touch ~/.ssh/authorized_keys && cat >> ~/.ssh/authorized_keys'
+

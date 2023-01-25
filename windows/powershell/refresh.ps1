@@ -1,11 +1,13 @@
 <# .SYNOPSIS
-	Refresh Environment Variables
+	Refresh environment variables
 .DESCRIPTION
 	Script for refreshing environment variables.
 .NOTES
-	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+	Author: Daniel Ribeirinha-Braga
+  Name: refresh.ps1
 #>
 
 $env:Path = [System.Environment]::GetEnvironmentVariable("Path", [System.EnvironmentVariableTarget]::Machine)
 $env:Path = [System.Environment]::GetEnvironmentVariable("Path", [System.EnvironmentVariableTarget]::Process)
 $env:Path = [System.Environment]::GetEnvironmentVariable("Path", [System.EnvironmentVariableTarget]::User)
+

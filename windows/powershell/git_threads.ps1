@@ -1,9 +1,10 @@
 <# .SYNOPSIS
-	Git Threads Setup
+	Git threads setup
 .DESCRIPTION
 	Script for setting up the number of Git threads.
 .NOTES
 	Author: Daniel Ribeirinha-Braga
+  Name: git_threads.ps1
 #>
 
 if ((-not $args[0])) {
@@ -11,3 +12,4 @@ if ((-not $args[0])) {
 }
 
 git config --global pack.threads $args[0]
+

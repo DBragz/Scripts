@@ -1,9 +1,10 @@
 <# .SYNOPSIS
-	Enter Docker Container
+	Enter Docker container
 .DESCRIPTION
 	Enters a running docker container.
 .NOTES
-	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+	Author: Daniel Ribeirinha-Braga
+  Name: docker_sh.ps1
 #>
 
 if (-not $args[0]) {
@@ -11,3 +12,4 @@ if (-not $args[0]) {
 }
 
 docker exec -it $args[0] sh
+

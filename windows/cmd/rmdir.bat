@@ -1,6 +1,6 @@
 @REM Name:     rmdir.bat
-@REM Purpose:  Script for remove all directories in cmd.
-@REM Author:   Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+@REM Purpose:  Script for removing directory and all subdirectories.
+@REM Author:   Daniel Ribeirinha-Braga
 
 @echo off
 
@@ -11,3 +11,4 @@ if [%1]==[] (
 )
 
 rmdir /s %1
+

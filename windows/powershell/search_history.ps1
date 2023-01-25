@@ -1,9 +1,10 @@
 <# .SYNOPSIS
-	Previous Command Searcher
+	Previous command searcher
 .DESCRIPTION
 	Searches through previous commands for a specific string.
 .NOTES
-	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+	Author: Daniel Ribeirinha-Braga
+  Name: search_history.ps1
 #>
 
 if (-not $args[0]) {
@@ -11,3 +12,4 @@ if (-not $args[0]) {
 }
 
 & "$PSScriptRoot\history.ps1" | Select-String -Pattern $args[0]
+

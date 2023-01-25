@@ -1,6 +1,6 @@
 @REM Name:     git_init.bat
 @REM Purpose:  Script for setting up Git username and email.
-@REM Author:   Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+@REM Author:   Daniel Ribeirinha-Braga
 
 @echo off
 
@@ -12,3 +12,4 @@ if [%2]==[] (
 
 git config --global user.name %1
 git config --global user.email %2
+
