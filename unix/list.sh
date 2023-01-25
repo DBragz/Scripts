@@ -1,10 +1,10 @@
 #!/bin/sh
 #
-# Script Name: list.sh
-#
-# Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+# Name: list.sh
 #
 # Description: Script for viewing all Alpine Package Keeper (APK) packages.
+#
+# Author: Daniel Ribeirinha-Braga
 #
 
 apk update
@@ -12,3 +12,4 @@ apk update
 chmod o+r /etc/apk/world
 
 cat /etc/APK/
+

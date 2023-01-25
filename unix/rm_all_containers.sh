@@ -1,10 +1,11 @@
 #!/bin/sh
 #
-# Script Name: rm_all_containers.sh
-#
-# Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+# Name: rm_all_containers.sh
 #
 # Description: Removes all of the docker containers.
 #
+# Author: Daniel Ribeirinha-Braga 
+#
 
 docker rm $(docker ps -a -q)
+

@@ -1,10 +1,10 @@
 #!/bin/sh
 #
-# Script Name: keygen.sh
-#
-# Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+# Name: keygen.sh
 #
 # Description: Script for generating SSH keys.
+#
+# Author: Daniel Ribeirinha-Braga
 #
 
 if [ -z $1 ]; then
@@ -13,3 +13,4 @@ if [ -z $1 ]; then
 fi
 
 ssh-keygen -t rsa -b 4096 -C $1
+

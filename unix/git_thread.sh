@@ -1,10 +1,10 @@
 #!/bin/sh
 #
-# Script Name: git_threads.sh
-#
-# Author: Daniel Ribeirinha-Braga
+# Name: git_threads.sh
 #
 # Description: Script for setting up the number of Git threads.
+#
+# Author: Daniel Ribeirinha-Braga
 #
 
 if [ -z $1 ]; then
@@ -13,3 +13,4 @@ if [ -z $1 ]; then
 fi
 
 git config --global pack.threads $1
+

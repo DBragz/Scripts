@@ -1,10 +1,11 @@
 #!/bin/sh
 #
-# Script Name: sw_vers.sh
-#
-# Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+# Name: sw_vers.sh
 #
 # Description: Retrieves the operating system information of the MacOS environment.
 #
+# Author: Daniel Ribeirinha-Braga
+#
 
 sw_vers
+

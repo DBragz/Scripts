@@ -1,10 +1,10 @@
 #!/bin/sh
 #
-# Script Name: git_init.sh
-#
-# Author: Daniel Ribeirinha-Braga
+# Name: git_init.sh
 #
 # Description: Script for setting up Git username and email.
+#
+# Author: Daniel Ribeirinha-Braga
 #
 
 if [ -z $1 ] && [ -z $2 ]; then
@@ -14,3 +14,4 @@ fi
 
 git config --global user.name $1
 git config --global user.email $2
+

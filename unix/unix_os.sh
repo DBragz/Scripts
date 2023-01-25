@@ -1,10 +1,11 @@
 #!/bin/sh
 #
-# Script Name: os_info.sh
-#
-# Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+# Name: os_info.sh
 #
 # Description: Retrieves the operating system information of the Linux environment.
 #
+# Author: Daniel Ribeirinha-Braga
+#
 
 cat /etc/os-release
+

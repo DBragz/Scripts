@@ -1,10 +1,10 @@
 #!/bin/sh
 #
-# Script Name: program.sh
-#
-# Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+# Name: program.sh
 #
 # Description: Creates a docker container with the image specified.
+#
+# Author: Daniel Ribeirinha-Braga
 #
 
 if [ -z $1]; then
@@ -13,3 +13,4 @@ if [ -z $1]; then
 fi
 
 docker run --rm -it --entrypoint bash $1
+

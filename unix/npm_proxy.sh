@@ -1,10 +1,10 @@
 #!/bin/sh
 #
-# Script Name: npm_proxy.sh
-#
-# Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+# Name: npm_proxy.sh
 #
 # Description: Script for setting up my npm proxy.
+#
+# Author: Daniel Ribeirinha-Braga
 #
 
 if [ -z $1 ]; then
@@ -14,3 +14,4 @@ fi
 
 npm config set proxy $1
 npm config set https-proxy $1
+

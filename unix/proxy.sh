@@ -1,10 +1,10 @@
 #!/bin/sh
 #
-# Script Name: proxy.sh
-#
-# Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+# Name: proxy.sh
 #
 # Description: Script for setting up the proxy for my http_proxy and https_proxy environment variables.
+#
+# Author: Daniel Ribeirinha-Braga
 #
 
 if [ -z $1 ]; then
@@ -14,3 +14,4 @@ fi
 
 echo "export http_proxy=$1" >> ~/.profile
 echo "export https_proxy=$1" >> ~/.profile
+

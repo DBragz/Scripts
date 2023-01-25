@@ -1,10 +1,10 @@
 #!/bin/sh
 #
-# Script Name: no_proxy.sh
-#
-# Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+# Name: no_proxy.sh
 #
 # Description: Script for setting up the proxy for my no_proxy environment variables.
+#
+# Author: Daniel Ribeirinha-Braga
 #
 
 if [ -z $1 ]; then
@@ -13,3 +13,4 @@ if [ -z $1 ]; then
 fi
 
 echo "export no_proxy=$1" >> ~/.profile
+
