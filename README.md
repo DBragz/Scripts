@@ -1,6 +1,6 @@
 # Scripts
 
-These scripts were created for me to get a better understanding of scripting between operating systems.
+This repository were created for me to get a better understanding of scripting between operating systems.
 
 ## Authors
 
