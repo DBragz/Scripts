@@ -3,8 +3,8 @@
 .DESCRIPTION
 	Displays the preivous commands that were used.
 .NOTES
+  Name:   history.ps1
 	Author: Daniel Ribeirinha-Braga
-  Name: history.ps1
 #>
 
 Get-Content (Get-PSReadlineOption).HistorySavePath

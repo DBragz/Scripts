@@ -2,9 +2,9 @@
 #
 # Name: list.sh
 #
-# Description: Script for viewing all Alpine Package Keeper (APK) packages.
-#
 # Author: Daniel Ribeirinha-Braga
+#
+# Description: Script for viewing all Alpine Package Keeper (APK) packages.
 #
 
 apk update

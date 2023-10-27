@@ -2,9 +2,9 @@
 #
 # Name: clear_queue.sh
 #
-# Description: Deletes a queue in rabbitmq.
-#
 # Author: Daniel Ribeirinha-Braga
+#
+# Description: Deletes a queue in RabbitMQ.
 #
 
 rabbitmqadmin delete queue name=$1

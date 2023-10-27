@@ -3,8 +3,8 @@
 .DESCRIPTION
 	Loads a particular image inside a Docker container and sh's into it.
 .NOTES
+  Name:   docker_entrypoint.ps1
 	Author: Daniel Ribeirinha-Braga 
-  Name: docker_entrypoint.ps1
 #>
 
 if (-not $args[0]) {

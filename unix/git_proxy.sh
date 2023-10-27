@@ -2,9 +2,9 @@
 #
 # Name: git_proxy.sh
 #
-# Description: Script for setting up Git proxy.
-#
 # Author: Daniel Ribeirinha-Braga
+#
+# Description: Script for setting up Git proxy.
 #
 
 if [ -z $1 ]; then

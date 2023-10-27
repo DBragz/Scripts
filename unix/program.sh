@@ -2,9 +2,9 @@
 #
 # Name: program.sh
 #
-# Description: Creates a docker container with the image specified.
-#
 # Author: Daniel Ribeirinha-Braga
+#
+# Description: Creates a docker container with the image specified.
 #
 
 if [ -z $1]; then

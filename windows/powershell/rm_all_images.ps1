@@ -3,8 +3,8 @@
 .DESCRIPTION
 	Removes all of the docker images.
 .NOTES
+  Name:   rm_all_images.ps1
 	Author: Daniel Ribeirinha-Braga
-  Name: rm_all_images.ps1
 #>
 
 docker rmi $(docker images -q)

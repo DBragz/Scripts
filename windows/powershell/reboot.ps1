@@ -3,8 +3,8 @@
 .DESCRIPTION
 	Script for rebooting a Windows computer.
 .NOTES
+  Name:   reboot.ps1
 	Author: Daniel Ribeirinha-Braga
-  Name: reboot.ps1
 #>
 
 Restart-Computer

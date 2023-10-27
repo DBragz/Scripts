@@ -3,8 +3,8 @@
 .DESCRIPTION
 	Searches through previous commands for a specific string.
 .NOTES
+  Name:   search_history.ps1
 	Author: Daniel Ribeirinha-Braga
-  Name: search_history.ps1
 #>
 
 if (-not $args[0]) {

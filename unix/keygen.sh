@@ -2,9 +2,9 @@
 #
 # Name: keygen.sh
 #
-# Description: Script for generating SSH keys.
-#
 # Author: Daniel Ribeirinha-Braga
+#
+# Description: Script for generating SSH keys.
 #
 
 if [ -z $1 ]; then

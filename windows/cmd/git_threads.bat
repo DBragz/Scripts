@@ -1,6 +1,6 @@
 @REM Name:     git_threads.bat
-@REM Purpose:  Script for setting up the number of Git threads.
 @REM Author:   Daniel Ribeirinha-Braga
+@REM Purpose:  Script for setting up the number of Git threads.
 
 @echo off
 

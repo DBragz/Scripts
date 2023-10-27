@@ -3,8 +3,8 @@
 .DESCRIPTION
 	Script for refreshing environment variables.
 .NOTES
+  Name:   refresh.ps1
 	Author: Daniel Ribeirinha-Braga
-  Name: refresh.ps1
 #>
 
 $env:Path = [System.Environment]::GetEnvironmentVariable("Path", [System.EnvironmentVariableTarget]::Machine)

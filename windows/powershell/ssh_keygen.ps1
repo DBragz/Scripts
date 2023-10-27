@@ -3,8 +3,8 @@
 .DESCRIPTION
 	Script for generating SSH keys.
 .NOTES
+  Name:   ssh_keygen.ps1
 	Author: Daniel Ribeirinha-Braga
-  Name: ssh_keygen.ps1
 #>
 
 if (-not $args[0]) {

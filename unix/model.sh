@@ -2,9 +2,9 @@
 #
 # Name: model.sh
 #
-# Description: Retrieves the model of the Raspberry Pi.
-#
 # Author: Daniel Ribeirinha-Braga 
+#
+# Description: Retrieves the model of the Raspberry Pi.
 #
 
 cat /proc/device-tree/model

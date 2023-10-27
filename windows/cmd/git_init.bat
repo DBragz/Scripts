@@ -1,6 +1,6 @@
 @REM Name:     git_init.bat
-@REM Purpose:  Script for setting up Git username and email.
 @REM Author:   Daniel Ribeirinha-Braga
+@REM Purpose:  Script for setting up Git username and email.
 
 @echo off
 

@@ -3,8 +3,8 @@
 .DESCRIPTION
 	Script for setting up Git proxy.
 .NOTES
+  Name:   git_proxy.ps1
 	Author: Daniel Ribeirinha-Braga
-  Name: git_proxy.ps1
 #>
 
 if ((-not $args[0])) {

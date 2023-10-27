@@ -2,9 +2,9 @@
 #
 # Name: git_threads.sh
 #
-# Description: Script for setting up the number of Git threads.
-#
 # Author: Daniel Ribeirinha-Braga
+#
+# Description: Script for setting up the number of Git threads.
 #
 
 if [ -z $1 ]; then

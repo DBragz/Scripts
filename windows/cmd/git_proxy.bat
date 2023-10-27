@@ -1,6 +1,6 @@
 @REM Name:     git_proxy.bat
-@REM Purpose:  Script for setting up Git proxy.
 @REM Author:   Daniel Ribeirinha-Braga
+@REM Purpose:  Script for setting up Git proxy.
 
 @echo off
 

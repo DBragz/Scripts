@@ -2,9 +2,9 @@
 #
 # Name: sw_vers.sh
 #
-# Description: Retrieves the operating system information of the MacOS environment.
-#
 # Author: Daniel Ribeirinha-Braga
+#
+# Description: Retrieves the operating system information of the MacOS environment.
 #
 
 sw_vers

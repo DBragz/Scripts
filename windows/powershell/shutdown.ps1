@@ -3,8 +3,8 @@
 .DESCRIPTION
 	Script shutting down a Windows computer.
 .NOTES
+  Name:   shutdown.ps1
 	Author: Daniel Ribeirinha-Braga
-  Name: shutdown.ps1
 #>
 
 Stop-Computer -Force

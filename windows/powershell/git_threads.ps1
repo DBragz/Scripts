@@ -3,8 +3,8 @@
 .DESCRIPTION
 	Script for setting up the number of Git threads.
 .NOTES
+  Name:   git_threads.ps1
 	Author: Daniel Ribeirinha-Braga
-  Name: git_threads.ps1
 #>
 
 if ((-not $args[0])) {

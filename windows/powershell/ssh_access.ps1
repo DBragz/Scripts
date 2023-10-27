@@ -3,8 +3,8 @@
 .DESCRIPTION
 	Script for adding SSH keys to a server to be authorized.
 .NOTES
+  Name:   ssh_access.ps1
 	Author: Daniel Ribeirinha-Braga
-  Name: ssh_access.ps1
 #>
 
 if ((-not $args[0]) -or (-not $args[1])) {

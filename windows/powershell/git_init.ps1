@@ -3,8 +3,8 @@
 .DESCRIPTION
 	Script for setting up Git username and email.
 .NOTES
+  Name:   git_init.ps1
 	Author: Daniel Ribeirinha-Braga
-  Name: git_init.ps1
 #>
 
 if ((-not $args[0]) -or (-not $args[1])) {

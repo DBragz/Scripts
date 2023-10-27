@@ -3,8 +3,8 @@
 .DESCRIPTION
 	Enters a running docker container.
 .NOTES
+  Name:   docker_sh.ps1
 	Author: Daniel Ribeirinha-Braga
-  Name: docker_sh.ps1
 #>
 
 if (-not $args[0]) {

@@ -2,9 +2,9 @@
 #
 # Name: no_proxy.sh
 #
-# Description: Script for setting up the proxy for my no_proxy environment variables.
-#
 # Author: Daniel Ribeirinha-Braga
+#
+# Description: Script for setting up the proxy for my no_proxy environment variables.
 #
 
 if [ -z $1 ]; then

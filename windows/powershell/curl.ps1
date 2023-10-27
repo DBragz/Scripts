@@ -3,8 +3,8 @@
 .DESCRIPTION
 	Downloads the file using a curl command.
 .NOTES
+  Name:   curl.ps1
 	Author: Daniel Ribeirinha-Braga
-  Name: curl.ps1
 #>
 
 if ((-not $args[0]) -or (-not $args[1])) {

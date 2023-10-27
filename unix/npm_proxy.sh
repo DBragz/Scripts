@@ -2,9 +2,9 @@
 #
 # Name: npm_proxy.sh
 #
-# Description: Script for setting up my npm proxy.
-#
 # Author: Daniel Ribeirinha-Braga
+#
+# Description: Script for setting up my npm proxy.
 #
 
 if [ -z $1 ]; then
