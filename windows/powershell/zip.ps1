@@ -1,10 +1,15 @@
-<# .SYNOPSIS
-	File compressor
+<#
+.SYNOPSIS
+  File compressor.
+
 .DESCRIPTION
-	Compresses the file accordingly.
+  Compresses the file accordingly.
+
+.FILE
+  user_env.ps1
+
 .NOTES
-  Name:   zip.ps1
-	Author: Daniel Ribeirinha-Braga
+  Author: Daniel Ribeirinha-Braga
 #>
 
 Compress-Archive $args[0] $args[1]
