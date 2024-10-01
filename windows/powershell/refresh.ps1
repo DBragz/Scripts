@@ -1,10 +1,15 @@
-<# .SYNOPSIS
-	Refresh environment variables
+<#
+.SYNOPSIS
+  Refresh environment variables
+
 .DESCRIPTION
-	Script for refreshing environment variables.
+  Script for refreshing environment variables.
+
+.FILE
+  refresh.ps1
+
 .NOTES
-  Name:   refresh.ps1
-	Author: Daniel Ribeirinha-Braga
+  Author: Daniel Ribeirinha-Braga
 #>
 
 $env:Path = [System.Environment]::GetEnvironmentVariable("Path", [System.EnvironmentVariableTarget]::Machine)

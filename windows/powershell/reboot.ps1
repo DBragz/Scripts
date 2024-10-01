@@ -1,10 +1,15 @@
-<# .SYNOPSIS
-  Reboot computer
+<#
+.SYNOPSIS
+  Reboot computer.
+
 .DESCRIPTION
-	Script for rebooting a Windows computer.
+  Script for rebooting a Windows computer.
+
+.FILE
+  reboot.ps1
+
 .NOTES
-  Name:   reboot.ps1
-	Author: Daniel Ribeirinha-Braga
+  Author: Daniel Ribeirinha-Braga
 #>
 
 Restart-Computer

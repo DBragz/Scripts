@@ -1,10 +1,15 @@
-<# .SYNOPSIS
-	 Stop all containers
+<#
+.SYNOPSIS
+  Stop all containers.
+
 .DESCRIPTION
-	Stops all of the docker containers
+  Stops all of the docker containers.
+
+.FILE
+  ssh_keygen.ps1
+
 .NOTES
-  Name:   stop_all_containers.ps1
-	Author: Daniel Ribeirinha-Braga
+  Author: Daniel Ribeirinha-Braga
 #>
 
 docker kill $(docker ps -q)

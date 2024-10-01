@@ -1,10 +1,15 @@
-<# .SYNOPSIS
-	Displays previous commands
+<# 
+.SYNOPSIS
+  Displays previous commands.
+
 .DESCRIPTION
-	Displays the preivous commands that were used.
+  Displays the preivous commands that were used.
+
+.FILE
+  history.ps1
+
 .NOTES
-  Name:   history.ps1
-	Author: Daniel Ribeirinha-Braga
+  Author: Daniel Ribeirinha-Braga
 #>
 
 Get-Content (Get-PSReadlineOption).HistorySavePath

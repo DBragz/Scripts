@@ -1,10 +1,15 @@
-<# .SYNOPSIS
-	Previous command searcher
+<#
+.SYNOPSIS
+  Previous command searcher.
+
 .DESCRIPTION
-	Searches through previous commands for a specific string.
+  Searches through previous commands for a specific string.
+
+.FILE
+  search_history.ps1
+
 .NOTES
-  Name:   search_history.ps1
-	Author: Daniel Ribeirinha-Braga
+  Author: Daniel Ribeirinha-Braga
 #>
 
 if (-not $args[0]) {

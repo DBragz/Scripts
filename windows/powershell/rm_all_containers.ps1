@@ -1,10 +1,15 @@
-<# .SYNOPSIS
-	 Removes all containers
+<#
+.SYNOPSIS
+  Removes all containers.
+
 .DESCRIPTION
-	Removes all of the docker containers.
+  Removes all of the docker containers.
+
+.FILE
+  rm_all_containers.ps1
+
 .NOTES
-  Name:   rm_all_containers.ps1
-	Author: Daniel Ribeirinha-Braga
+  Author: Daniel Ribeirinha-Braga
 #>
 
 docker rm $(docker ps -a -q)

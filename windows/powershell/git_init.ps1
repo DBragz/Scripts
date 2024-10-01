@@ -1,10 +1,15 @@
-<# .SYNOPSIS
-	Git user setup
+<# 
+.SYNOPSIS
+  Git user setup.
+
 .DESCRIPTION
-	Script for setting up Git username and email.
+  Script for setting up Git username and email.
+
+.FILE
+  git_init.ps1
+
 .NOTES
-  Name:   git_init.ps1
-	Author: Daniel Ribeirinha-Braga
+  Author: Daniel Ribeirinha-Braga
 #>
 
 if ((-not $args[0]) -or (-not $args[1])) {

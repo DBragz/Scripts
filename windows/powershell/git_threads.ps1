@@ -1,10 +1,15 @@
-<# .SYNOPSIS
-	Git threads setup
+<# 
+.SYNOPSIS
+  Git threads setup.
+
 .DESCRIPTION
-	Script for setting up the number of Git threads.
+  Script for setting up the number of Git threads.
+
+.FILE
+  git_thread.ps1
+
 .NOTES
-  Name:   git_threads.ps1
-	Author: Daniel Ribeirinha-Braga
+  Author: Daniel Ribeirinha-Braga
 #>
 
 if ((-not $args[0])) {

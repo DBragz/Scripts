@@ -1,10 +1,15 @@
-<# .SYNOPSIS
-	Set machine environment variables
+<#
+.SYNOPSIS
+  Set machine environment variables.
+
 .DESCRIPTION
-	Script for setting up a machine environment variable.
+  Script for setting up a machine environment variable.
+
+.FILE
+  system_env.ps1
+
 .NOTES
-  Name:   system_env.ps1
-	Author: Daniel Ribeirinha-Braga
+  Author: Daniel Ribeirinha-Braga
 #>
 
 if ((-not $args[0]) -or (-not $args[1])) {

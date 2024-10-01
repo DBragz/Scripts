@@ -1,10 +1,15 @@
-<# .SYNOPSIS
-	Lists global Node Package Manager (NPM) packages
+<# 
+.SYNOPSIS
+  Lists global Node Package Manager (NPM) packages.
+
 .DESCRIPTION
-	Displays all globally installed NPM packages on windows system.
+  Displays all globally installed NPM packages on Windows system.
+
+.FILE
+  npm_list_global.ps1
+
 .NOTES
-  Name:   npm_list_global.ps1
-	Author: Daniel Ribeirinha-Braga
+  Author: Daniel Ribeirinha-Braga
 #>
 
 npm list -g --depth 0

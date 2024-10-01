@@ -1,10 +1,15 @@
-<# .SYNOPSIS
-	Set users environment variables
+<#
+.SYNOPSIS
+  Set users environment variables.
+
 .DESCRIPTION
-	Script for setting up a user environment variable.
+  Script for setting up a user environment variable.
+
+.FILE
+  user_env.ps1
+
 .NOTES
-  Name:   user_env.ps1
-	Author: Daniel Ribeirinha-Braga
+  Author: Daniel Ribeirinha-Braga
 #>
 
 if ((-not $args[0]) -or (-not $args[1])) {

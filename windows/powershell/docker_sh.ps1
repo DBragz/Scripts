@@ -1,10 +1,15 @@
-<# .SYNOPSIS
-	Enter Docker container
+<# 
+.SYNOPSIS
+  Enter Docker container.
+
 .DESCRIPTION
-	Enters a running docker container.
+  Loads a particular image inside a Docker container and sh's into it.
+
+.FILE
+  docker_sh.ps1
+
 .NOTES
-  Name:   docker_sh.ps1
-	Author: Daniel Ribeirinha-Braga
+  Author: Daniel Ribeirinha-Braga
 #>
 
 if (-not $args[0]) {

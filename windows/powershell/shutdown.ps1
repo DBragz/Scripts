@@ -1,10 +1,15 @@
-<# .SYNOPSIS
-  Shutdown computer
+<#
+.SYNOPSIS
+  Shutdown computer.
+
 .DESCRIPTION
-	Script shutting down a Windows computer.
+  Script shutting down a Windows computer.
+
+.FILE
+  shutdown.ps1
+
 .NOTES
-  Name:   shutdown.ps1
-	Author: Daniel Ribeirinha-Braga
+  Author: Daniel Ribeirinha-Braga
 #>
 
 Stop-Computer -Force

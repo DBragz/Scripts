@@ -1,10 +1,15 @@
-<# .SYNOPSIS
-	Entrypoint Docker program
+<# 
+.SYNOPSIS
+  Entrypoint Docker program.
+
 .DESCRIPTION
-	Loads a particular image inside a Docker container and sh's into it.
+  Loads a particular image inside a Docker container and sh's into it.
+
+.FILE
+  docker_entrypoint.ps1
+
 .NOTES
-  Name:   docker_entrypoint.ps1
-	Author: Daniel Ribeirinha-Braga 
+  Author: Daniel Ribeirinha-Braga
 #>
 
 if (-not $args[0]) {

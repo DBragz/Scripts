@@ -1,10 +1,15 @@
-<# .SYNOPSIS
-	Curl download a file
+<# 
+.SYNOPSIS
+  Curl download a file.
+
 .DESCRIPTION
-	Downloads the file using a curl command.
+  Downloads the file using a curl command.
+
+.FILE
+  curl.ps1
+
 .NOTES
-  Name:   curl.ps1
-	Author: Daniel Ribeirinha-Braga
+  Author: Daniel Ribeirinha-Braga
 #>
 
 if ((-not $args[0]) -or (-not $args[1])) {

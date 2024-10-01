@@ -1,10 +1,15 @@
-<# .SYNOPSIS
-	SSH key setup
+<#
+.SYNOPSIS
+  SSH key setup.
+
 .DESCRIPTION
-	Script for generating SSH keys.
+  Script for generating SSH keys.
+
+.FILE
+  ssh_keygen.ps1
+
 .NOTES
-  Name:   ssh_keygen.ps1
-	Author: Daniel Ribeirinha-Braga
+  Author: Daniel Ribeirinha-Braga
 #>
 
 if (-not $args[0]) {

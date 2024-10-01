@@ -1,10 +1,15 @@
-<# .SYNOPSIS
-	Git proxy setup
+<# 
+.SYNOPSIS
+  Git proxy setup.
+
 .DESCRIPTION
-	Script for setting up Git proxy.
+  Script for setting up Git proxy.
+
+.FILE
+  git_proxy.ps1
+
 .NOTES
-  Name:   git_proxy.ps1
-	Author: Daniel Ribeirinha-Braga
+  Author: Daniel Ribeirinha-Braga
 #>
 
 if ((-not $args[0])) {

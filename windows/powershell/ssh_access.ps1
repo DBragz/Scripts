@@ -1,10 +1,15 @@
-<# .SYNOPSIS
-	Authorizing SSH keys
+<#
+.SYNOPSIS
+  Authorizing SSH keys.
+
 .DESCRIPTION
-	Script for adding SSH keys to a server to be authorized.
+  Script for adding SSH keys to a server to be authorized.
+
+.FILE
+  ssh_access.ps1
+
 .NOTES
-  Name:   ssh_access.ps1
-	Author: Daniel Ribeirinha-Braga
+  Author: Daniel Ribeirinha-Braga
 #>
 
 if ((-not $args[0]) -or (-not $args[1])) {
