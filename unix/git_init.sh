@@ -12,6 +12,6 @@ if [ -z $1 ] && [ -z $2 ]; then
   exit 0
 fi
 
-git config --global user.name $1
-git config --global user.email $2
+git config user.name $1
+git config user.email $2
 
