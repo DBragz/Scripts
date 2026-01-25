@@ -12,5 +12,6 @@ if [ -z $1 ] && [ -z $2 ]; then
   exit 0
 fi
 
-printenv "$1"
-printenv "$2"
+SECRET=$(printenv "$1")
+echo "Secret: $SECRET"
+echo "Repo: $2"
