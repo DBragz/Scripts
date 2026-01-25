@@ -15,19 +15,13 @@ fi
 SECRET=$(printenv "$1")
 REPO=$2
 USERNAME=$3
-# GIT_NAME=$3
-# GIT_EMAIL=$4
-# LOCAL_GIT_NAME=$(git config --get user.name)
-# LOCAL_GIT_EMAIL=$(git config --get user.email)
 
 echo "Secret: $SECRET"
 echo "Repo: $REPO"
 echo "Username: $USERNAME"
-# echo "Git Name: $GIT_NAME"
-# echo "Git Email: $GIT_EMAIL"
-# echo "Local Git Name: $LOCAL_GIT_NAME"
-# echo "Local Git Email: $LOCAL_GIT_EMAIL"
 
-# ./unix/git_init.sh $GIT_NAME $GIT_EMAIL
-
+# TODO: Verify command below works.
 git -C .. remote add origin https://$USERNAME:$SECRET@github.com/$USERNAME/$REPO.git
+
+# TODO: Figure out where to place the following command.
+# git -C push --set-upstream origin main
