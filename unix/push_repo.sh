@@ -12,5 +12,5 @@ if [ -z $1 ] && [ -z $2 ]; then
   exit 0
 fi
 
-echo $1
-echo $2
+echo "$1"
+echo "$2"
