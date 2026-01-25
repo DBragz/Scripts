@@ -30,4 +30,4 @@ echo "Username: $USERNAME"
 
 # ./unix/git_init.sh $GIT_NAME $GIT_EMAIL
 
-git remote add origin https://$USERNAME:$SECRET@github.com/$USERNAME/$REPO.git
+git remote add github https://$USERNAME:$SECRET@github.com/$USERNAME/$REPO.git
