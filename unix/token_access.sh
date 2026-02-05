@@ -21,7 +21,7 @@ echo "Repo: $REPO"
 echo "Username: $USERNAME"
 
 # TODO: Verify command below works.
-git -C .. remote add origin https://$USERNAME:$SECRET@github.com/$USERNAME/$REPO.git
+git remote add origin https://$USERNAME:$SECRET@github.com/$USERNAME/$REPO.git
 
 # TODO: Figure out where to place the following command.
 # git -C push --set-upstream origin main
