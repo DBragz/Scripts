@@ -16,12 +16,9 @@ SECRET=$(printenv "$1")
 REPO=$2
 USERNAME=$3
 
-echo "Secret: $SECRET"
-echo "Repo: $REPO"
-echo "Username: $USERNAME"
+echo "Secret: $(printenv "$1")"
+echo "Repo: $2"
+echo "Username: $3"
 
 # TODO: Verify command below works.
-git remote add origin https://$USERNAME:$SECRET@github.com/$USERNAME/$REPO.git
-
-# TODO: Figure out where to place the following command.
-# git -C push --set-upstream origin main
+git remote add origin https://$3:$1@github.com/$3/$2.git
